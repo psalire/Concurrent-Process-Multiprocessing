@@ -11,6 +11,8 @@ See ```main_test.py``` for example usage.
 #### General usage:
 
 ```
+from concurrent_process import Concurrent_Process
+
 # Create 2 processes
 proc_1 = Concurrent_Process(ftn_1, 'PROC_1')
 proc_2 = Concurrent_Process(ftn_2, 'PROC_2')
