@@ -3,8 +3,6 @@ from time import sleep
 from random import uniform
 import signal, sys, os
 
-FILE_DIR = 'misc/output/5sec' # Dir with audio clips
-
 # Catch CTRL-C
 def keyboard_interrupt(signal, frame):
     print('Keyboard interrupt. Exiting...')
