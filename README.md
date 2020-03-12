@@ -1,6 +1,6 @@
 # Python Multiprocessing class
 
-Class for creating a concurrent process for multiprocessing in Python
+Class for creating concurrent processes for multiprocessing in Python
 
 ## How to use
 
