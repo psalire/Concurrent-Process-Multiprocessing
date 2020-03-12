@@ -2,7 +2,9 @@
 
 Class for creating a concurrent process in Python
 
-## General usage
+## How to use
+
+### General usage
 
 ```
 from concurrent_process import Concurrent_Process
@@ -20,6 +22,6 @@ sleep_proc_1.push_to_queue(data_1)
 sleep_proc_2.push_to_queue(data_2)
 ```
 
-## Example usage
+### Example usage
 
 See ```main_test.py``` for example usage.
