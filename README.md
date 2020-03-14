@@ -2,6 +2,12 @@
 
 Class for creating concurrent processes for multiprocessing in Python
 
+## How it works
+
+The spawned process consumes data from a queue.
+
+If the queue is empty, wait for data. Else, once data is pushed to the queue, pop the queue and call the intended function on it.
+
 ## How to use
 
 ### General usage
