@@ -30,8 +30,8 @@ proc_1.start()
 proc_2.start()
 
 # Push data to queue that processes will process using ftn_x
-sleep_proc_1.push_to_queue(data_1)
-sleep_proc_2.push_to_queue(data_2)
+proc_1.push_to_queue(data_1)
+proc_2.push_to_queue(data_2)
 ```
 
 ### Example usage
